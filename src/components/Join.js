@@ -13,16 +13,16 @@ function Join({ name, num, image }) {
 			<p className="text-[#1A1A1B] dark:text-gray-300 flex-1">{name}</p>
 			<button
 				className="rounded-full h-7
-         w-[60px] text-white hover:bg-[#249ece]  bg-[#0097D3] 
-        font-semibold "
+       px-4 text-white hover:bg-[#249ece] text-[14px] bg-[#0097D3] 
+        font-semibold dark:bg-white dark:text-gray-900"
 				onClick={handleToggle}
 			>
 				<button className="text-center">
 					{navbarOpen ? (
-						<p className="text-[18px] font-semibold  ">Join</p>
+						<p className=" font-semibold ">Join</p>
 					) : (
 						<div className="flex items-center ">
-							<span>Joined</span>
+							<span className=''>Joined</span>
 						</div>
 					)}
 				</button>

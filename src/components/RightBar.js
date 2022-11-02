@@ -22,14 +22,14 @@ function RightBar() {
        <Join  image={'https://a.thumbs.redditmedia.com/kIpBoUR8zJLMQlF8azhN-kSBsjVUidHjvZNLuHDONm8.png'}
        name={'r/funny'} num={'2'}  /><Join  image={'https://styles.redditmedia.com/t5_2qh87/styles/communityIcon_ub69d1lpjlf51.png'}
        name={'r/space'} num={'3'}  /><Join  image={'https://styles.redditmedia.com/t5_2qh13/styles/communityIcon_pldiwqvsyns91.png'}
-       name={'r/worldnews'} num={'4'}  /><Join  image={'https://b.thumbs.redditmedia.com/b19-jQLBsVc2-EQfPx5WEQkYIL_clR0mhba4-pHT0AA.png'}
-       name={'r/Damnthats...'} num={'5'}  />
+       name={'r/worldne.'} num={'4'}  /><Join  image={'https://b.thumbs.redditmedia.com/b19-jQLBsVc2-EQfPx5WEQkYIL_clR0mhba4-pHT0AA.png'}
+       name={'r/Damnth...'} num={'5'}  />
       </div>
 
 <div className='px-2 py-3'>
   <button className='bg-[#0097D3] w-full h-8 rounded-full text-white font-semibold'>View All</button>
 </div>
-<ul className=' flex items-center lg:space-x-2 xl:space-x-2 px-5 pb-3'>
+<ul className=' flex items-center lg:space-x-2 xl:space-x-2 px-3 pb-3'>
   <li className='Four'>Near You</li>
   <li className='Four'>Gaming</li>
   <li className='Four'>Sports</li>

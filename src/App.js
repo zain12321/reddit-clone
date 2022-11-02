@@ -2,11 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import Header from './components/Header';
-import Section from './components/Section';
-import RightBar from './components/RightBar';
 import {
 	BrowserRouter as Router,
-	Routes, Route, BrowserRouter
+	Routes, Route,
   } from 'react-router-dom';
   import Profile from './pages/Profile';
 import Home from './pages/Home';

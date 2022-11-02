@@ -52,12 +52,14 @@ function Posts() {
             <li   onClick={() => filterItem('21')} className='best'><FaFireAlt className='b-icon'/><span>Hot</span></li>
             <li  onClick={() => filterItem('22')} className='best'><IoFlowerOutline className='b-icon'/><span>New</span></li>
             <li   onClick={() => filterItem('19')}  className='best hidden sm:flex'><AiOutlineToTop className='b-icon'/><span>Top</span></li>
-<li className='hidden sm:flex p-3 hover:bg-gray-200 dark:hover:text-900  cursor-pointer rounded-full'><BsThreeDots className='b-icon'/></li>
+<li className='hidden sm:flex p-3 hover:bg-gray-200 dark:hover:bg-[#333]
+ dark:hover:text-900  cursor-pointer rounded-full'><BsThreeDots className='b-icon'/></li>
           </ul> 
         </div>
         <div className='hidden sm:flex px-2'>
-             <p className='flex items-center space-x-1 p-2 text-gray-500 hover:bg-gray-100 rounded-full
-             dark:hover:text-gray-700 cursor-pointer'>
+             <p className='flex items-center space-x-1 p-2 text-gray-500
+              hover:bg-gray-100 rounded-full dark:hover:bg-[#333] 
+             dark:hover:text-gray-300 cursor-pointer'>
              <BiCheckboxMinus className='h-8 w-8  '/>
              <IoIosArrowDown className='b-icon '/>
              </p>
@@ -87,18 +89,18 @@ function Posts() {
             <p className='text-[13px] font-semibold hover:underline'>{title}</p>
             <p className='text-[13px] font-semibold text-gray-400'>{time}</p>
         </div>
-               <p className='px-3 pt-2 text-[17px] font-bold'>
+               <p className='px-3 py-1 pt-2 text-[17px] font-bold'>
                 {desc}
                </p>
                <div>
-                <img className='h-[360px] 2xl:h-[500px] w-full' src={image} alt=""/>
+                <img className='h-[360px] 2xl:h-[500px] w-full 2xl:w-[2000px]' src={image} alt=""/>
                </div>
                <div className='flex text-gray-500 mt-2  pl-3  dark:text-gray-300 items-center
                 space-x-4'>
                <p className='comment'>
                 <FaRegCommentAlt className='c-icon mt-1'
                 />
-                <span>{comments}</span>
+                <span className='text-[14px]'>{comments}</span>
                </p>
                <p className='comment'>
                 <BsGift className='c-icon ' />
@@ -114,11 +116,8 @@ function Posts() {
                </p>
                <p className='comment'>
                 <BsThreeDotsVertical className='c-icon rotate-90' />
-                
                </p>
-               
                </div>
-
          </div>
          </div>
           </div>

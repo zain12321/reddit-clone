@@ -1,10 +1,10 @@
 import React from 'react'
-
+import space from '../assets/space.png' 
 function Avatar() {
   return (
-<div className='hidden xl:flex mt-2 w-[290px] bg-white pb-2 dark:bg-[#272729]'>
+<div className='hidden xl:flex flex-col mt-2 w-[290px] bg-white pb-2 dark:bg-[#272729]'>
        <div className='flex flex-col'>
-        <img className='h-10 ' src='' alt='' />
+        <img className='h-10 ' src={space} alt='' />
         <div className='absolute mt-5 ml-2 flex items-center space-x-5'>
         <img className='h-[90px] w-[70px]' src='https://www.redditstatic.com/desktop2x/img/id-cards/snoo-home@2x.png' alt=''/>
         <p className='mt-3 text-[15px] text-black font-medium dark:text-gray-300'>Home</p>

@@ -23,7 +23,7 @@ Moderator Code Of Conduct</p>
         <span>Português</span>
         </p>
      </div>
-<div className='px-3 py-1 text-[15px]'>
+<div className='px-3 py-1 text-[14px]'>
 Reddit Inc © 2022. All rights reserved
 </div>
      </div>

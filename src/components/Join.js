@@ -10,7 +10,7 @@ function Join({ name, num, image }) {
 			<p>{num}</p>
 			<RiArrowUpSLine className="h-6 w-6 text-green-600" />
 			<img className="h-7 w-7 rounded-full" src={image} alt="" />
-			<p className="text-[#1A1A1B] dark:text-gray-300 flex-1">{name}</p>
+			<p className="text-[#1A1A1B] dark:text-gray-300 flex-1 name">{name}</p>
 			<button
 				className="rounded-full h-7
        px-4 text-white hover:bg-[#249ece] text-[14px] bg-[#0097D3] 

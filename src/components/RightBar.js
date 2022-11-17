@@ -20,10 +20,10 @@ function RightBar() {
       <Join  image={'https://b.thumbs.redditmedia.com/lTgz7Yx_6n8VZemjf54viYVZgFhW2GlB6dlpj1ZwKbo.png'}
        name={'r/mildlyinte'} num={'1'}  />
        <Join  image={'https://a.thumbs.redditmedia.com/kIpBoUR8zJLMQlF8azhN-kSBsjVUidHjvZNLuHDONm8.png'}
-       name={'r/funny'} num={'2'}  /><Join  image={'https://styles.redditmedia.com/t5_2qh87/styles/communityIcon_ub69d1lpjlf51.png'}
-       name={'r/space'} num={'3'}  /><Join  image={'https://styles.redditmedia.com/t5_2qh13/styles/communityIcon_pldiwqvsyns91.png'}
-       name={'r/worldne.'} num={'4'}  /><Join  image={'https://b.thumbs.redditmedia.com/b19-jQLBsVc2-EQfPx5WEQkYIL_clR0mhba4-pHT0AA.png'}
-       name={'r/Damnth...'} num={'5'}  />
+       name={'r/funnywwoppo4opo4po4p4popk'} num={'2'}  /><Join  image={'https://styles.redditmedia.com/t5_2qh87/styles/communityIcon_ub69d1lpjlf51.png'}
+       name={'r/spacemlwweooo44'} num={'3'}  /><Join  image={'https://styles.redditmedia.com/t5_2qh13/styles/communityIcon_pldiwqvsyns91.png'}
+       name={'r/worldnenfjnjnr'} num={'4'}  /><Join  image={'https://b.thumbs.redditmedia.com/b19-jQLBsVc2-EQfPx5WEQkYIL_clR0mhba4-pHT0AA.png'}
+       name={'r/DamntheScored'} num={'5'}  />
       </div>
 
 <div className='px-2 py-3'>

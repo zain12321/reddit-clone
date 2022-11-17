@@ -59,8 +59,8 @@ function Header({darkTheme, setDarkTheme}) {
       </div>
       <div className='flex items-center space-x-2'>
         <div className='hidden 
-        bg-gray-200 text-gray-500 rounded-full hover:gray-400 py-2 px-2 xl:flex items-center space-x-2'>
-        <HiOutlineSpeakerphone className='h-5 w-5 text-gray-800'/>
+        bg-gray-200 dark:border-[#7a7a7a] dark:bg-[#333] text-gray-500 dark:text-gray-300 rounded-full hover:gray-400 py-2 px-2 xl:flex items-center space-x-2'>
+        <HiOutlineSpeakerphone className='h-5 w-5  '/>
         <p>Advertiser</p>
         </div>
         <div onClick={() => setChange(!change)} className='flex cursor-pointer border p-[2px]
@@ -97,8 +97,9 @@ function Header({darkTheme, setDarkTheme}) {
 <p onClick={() => setDarkTheme(!darkTheme)}  className='flex items-center space-x-2
  text-gray-600 justify-between p-2
  hover:bg-gray-100 cursor-pointer'>
+ 
 <span>Dark Mode</span>
-<MdDarkMode className='hIcons '/>
+<MdDarkMode className='h-5 w-5 '/>
 
 </p>
 
